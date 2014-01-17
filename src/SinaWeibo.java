@@ -175,9 +175,9 @@ public class SinaWeibo {
 	    }
 	     
 	    /**
-142	     * 获取时间戳
-143	     * @return
-144	     */
+	     * 获取时间戳
+	     * @return
+	     */
 	    private long getTimestamp(){
 	        Date now = new Date();
         return now.getTime();
