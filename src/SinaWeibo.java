@@ -242,6 +242,7 @@ public class SinaWeibo {
 				e.printStackTrace();
 			}
 		} else {
+			//登录失败：为了您的帐号安全，请输入验证码
 			System.out.println("登录失败：" + weibo.getErrInfo());
 		}
 	}
